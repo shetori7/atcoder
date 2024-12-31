@@ -18,7 +18,7 @@ func main() {
 
 	fmt.Scanln(&n)
 	scanner := bufio.NewScanner(os.Stdin)
-	scanner.Scan() // 1行を読み取る
+	scanner.Scan()
 	A = scanner.Text()
 
 	aStrs = strings.Split(A, " ")
